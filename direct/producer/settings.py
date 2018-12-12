@@ -14,15 +14,3 @@ task_routes = {
         'routing_key': 'pdf_log'
     },
 }
-
-
-# Order tasks
-Order = namedtuple('Order', ['get', 'update'])
-Order.get = 'orders.tasks.get'
-Order.update = 'orders.tasks.update'
-
-
-# Stock.tasks
-Stock = namedtuple('Stock', ['get', 'update'])
-Stock.get = 'stocks.tasks.get'
-Stock.update = 'stocks.tasks.update'
