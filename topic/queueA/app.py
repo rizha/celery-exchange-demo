@@ -8,4 +8,4 @@ celery.config_from_object(settings)
 
 @celery.task
 def process_agreements():
-    return 'processing processing_aggrements in QueueA'
+    return 'processing agreements in QueueA'
