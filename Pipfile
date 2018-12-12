@@ -4,9 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "==1.8.1"
+flake8 = "==3.5.0"
+
 
 [packages]
 celery = "==4.2.0"
+pycodestyle = "*"
 
 [requires]
 python_version = "3.6"

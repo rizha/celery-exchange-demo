@@ -1,5 +1,6 @@
 from kombu import Queue, Exchange
-from kombu.common import Broadcast
+
+
 broker_url = 'amqp://guest:guest@localhost:5672//'
 
 task_queues = (
