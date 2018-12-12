@@ -1,7 +1,7 @@
 Description
 -------------------------
 according to this [blog](https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html) which explain exchange type,
-i try to make example how it's look like using celery.
+so i like to try make example how it's look like using celery.
 
 
 Requirements
